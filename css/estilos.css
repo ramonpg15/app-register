@@ -1,0 +1,80 @@
+body {
+    background: #43cea2;
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+    background: linear-gradient(to right, #185a9d, #43cea2);
+}
+
+
+form {
+    background-color: rgb(242, 236, 225);
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    background-color: rgb(182, 92, 242);
+}
+
+.datos {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 45%;
+    margin-top: 70px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    border-radius: 8px;
+    height: 25px;
+    border: 1px solid gray;
+}
+
+select {
+    width: 100%;
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.botones {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.error {
+    border: 1.5px solid red;
+    background-color: rgb(245, 186, 186);
+}
+
+.exito {
+    background-color: skyblue;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+}
